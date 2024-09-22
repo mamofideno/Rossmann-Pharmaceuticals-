@@ -1,0 +1,41 @@
+2024-09-22 15:40:27,485 - INFO - check log message
+2024-09-22 15:42:07,596 - INFO - check log message
+2024-09-22 15:42:07,661 - INFO - Correlation between Sales and Customers: 0.8947107733016958
+2024-09-22 15:44:46,666 - INFO - Correlation between Sales and Customers: 0.8947107733016958
+2024-09-22 15:45:03,108 - INFO - Promo effect on sales and customers analyzed.
+2024-09-22 15:58:13,557 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-22 15:58:13,772 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-22 15:58:13,817 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-22 15:58:13,828 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-22 15:58:35,894 - INFO - check log message
+2024-09-22 15:58:35,961 - INFO - Correlation between Sales and Customers: 0.8947107733016958
+2024-09-22 15:58:36,100 - INFO - Promo effect on sales and customers analyzed.
+2024-09-22 15:58:36,264 - INFO - Assortment type effect on sales analyzed.
+2024-09-22 16:00:57,362 - INFO - check log message
+2024-09-22 16:00:57,461 - INFO - Correlation between Sales and Customers: 0.8947107733016958
+2024-09-22 16:00:57,663 - INFO - Promo effect on sales and customers analyzed.
+2024-09-22 16:00:57,850 - INFO - Assortment type effect on sales analyzed.
+2024-09-22 16:00:57,961 - INFO - Correlation between Competitor Distance and Sales: -0.019229200503111252
+2024-09-22 16:03:44,518 - INFO - Sales behavior around holidays visualized.
+2024-09-22 16:06:47,816 - INFO - Data cleaner objected created successfully.
+2024-09-22 16:50:37,089 - INFO - check log message
+2024-09-22 16:50:37,129 - INFO - Correlation between Sales and Customers: 0.8947107733016958
+2024-09-22 16:50:37,208 - INFO - Promo effect on sales and customers analyzed.
+2024-09-22 16:50:37,257 - INFO - Assortment type effect on sales analyzed.
+2024-09-22 16:50:37,306 - INFO - Correlation between Competitor Distance and Sales: -0.019229200503111252
+2024-09-22 16:50:37,338 - INFO - Data cleaner objected created successfully.
+2024-09-22 16:51:36,056 - INFO - check log message
+2024-09-22 16:51:36,104 - INFO - Correlation between Sales and Customers: 0.8947107733016958
+2024-09-22 16:51:36,186 - INFO - Promo effect on sales and customers analyzed.
+2024-09-22 16:51:36,234 - INFO - Assortment type effect on sales analyzed.
+2024-09-22 16:51:36,281 - INFO - Correlation between Competitor Distance and Sales: -0.019229200503111252
+2024-09-22 16:51:36,316 - INFO - Data cleaner objected created successfully.
+2024-09-22 16:51:36,381 - INFO - Missing data handled.
+2024-09-22 16:51:36,666 - INFO - Sales behavior around holidays visualized.
+2024-09-22 16:53:41,847 - INFO - Missing data handled.
+2024-09-22 16:54:02,825 - INFO - Outliers handled in Sales.
+2024-09-22 16:54:21,148 - INFO - Feature engineering completed.
+2024-09-22 16:55:38,851 - INFO - Sales behavior around holidays visualized.
+2024-09-22 16:56:13,756 - INFO - Sales behavior around holidays visualized.
+2024-09-22 16:56:20,570 - INFO - Seasonal sales trends visualized.
+2024-09-22 16:57:53,250 - INFO - Sales vs Customers correlation visualized.
