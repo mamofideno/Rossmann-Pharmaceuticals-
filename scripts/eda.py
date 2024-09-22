@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import chi2_contingency
+from scripts.logging import LoggerConfig
+
 class EDA:
     def __init__(self, train_df,test_df, promotion_col: str) -> None:
         self.train_df=train_df
@@ -72,4 +74,28 @@ class EDA:
         
         # Step 3: Perform Chi-Square test
         self.chi_square_test()
+    def compute_correlation(self):
+        """Compute the correlation between Sales and Customers."""
+        correlation = self.train_df['Sales'].corr(self.train_df['Customers'])
+        LoggerConfig.log_message(f"Correlation between Sales and Customers: {correlation}")
+        return correlation
+
+    def analyze_promo_effect(self):
+        """Analyze the effect of promotions on Sales and Customers."""
+        promo_sales = self.train_df.groupby('Promo')['Sales'].mean()
+        promo_customers = self.train_df.groupby('Promo')['Customers'].mean()
+        LoggerConfig.log_message("Promo effect on sales and customers analyzed.")
+        return promo_sales, promo_customers
+
+    def assortment_sales(self):
+        """Analyze sales based on assortment type."""
+        assortment_sales = self.train_df.groupby('Assortment')['Sales'].mean()
+        LoggerConfig.log_message("Assortment type effect on sales analyzed.")
+        return assortment_sales
+
+    def competitor_distance_sales_correlation(self):
+        """Analyze the correlation between competitor distance and sales."""
+        correlation = self.train_df['CompetitionDistance'].corr(self.train_df['Sales'])
+        LoggerConfig.log_message(f"Correlation between Competitor Distance and Sales: {correlation}")
+        return correlation    
 

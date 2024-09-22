@@ -11,10 +11,10 @@ class DataCleaner:
     def handle_missing_data(self):
         """Handle missing data in both train and test datasets."""
         self.train['Promo'].fillna(0, inplace=True)
-        self.train['CompetitorDistance'].fillna(self.train['CompetitorDistance'].median(), inplace=True)
+        self.train['CompetitionDistance'].fillna(self.train['CompetitionDistance'].median(), inplace=True)
         
         self.test['Promo'].fillna(0, inplace=True)
-        self.test['CompetitorDistance'].fillna(self.test['CompetitorDistance'].median(), inplace=True)
+        self.test['CompetitionDistance'].fillna(self.test['CompetitionDistance'].median(), inplace=True)
         
         LoggerConfig.log_message("Missing data handled.")
         return self
