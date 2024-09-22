@@ -39,5 +39,5 @@ class DataCleaner:
         self.test['Month'] = self.test['Date'].dt.month
         self.test['Year'] = self.test['Date'].dt.year
 
-        LoggerConfig.log_message("Feature engineering completed.")
+        LoggerConfig.log_message("Feature for Date, Month and DayOfWeek Completed engineering completed.")
         return self
